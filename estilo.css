@@ -1,0 +1,18 @@
+#main {
+    padding: 10 px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#contenido {
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 1;
+    background-color: chartreuse;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/365/629/82/rick-morty-rick-and-morty-cartoons-wallpaper-preview.jpg");
+}
+
+.ima {
+    background-color: aqua;
+}
