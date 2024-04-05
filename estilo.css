@@ -1,18 +1,27 @@
 #main {
-    padding: 10 px;
+    padding: 100 px;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 50px;
     text-align: center;
+    width: 500;
+    height: 500;
+    color: rgb(0, 0, 0);
 }
 
 #contenido {
-    border-radius: 200px;
+    border-radius: 10px;
     border-style: solid;
-    border-width: 1;
+    border-width: 2;
+    margin: 0 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
     background-color: chartreuse;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/365/629/82/rick-morty-rick-and-morty-cartoons-wallpaper-preview.jpg");
+    background-color: aqua;
 }
 
 .ima {
-    background-color: aqua;
+    background-image: url("https://external-preview.redd.it/rick-morty-will-recast-every-justin-roiland-character-v0-fmgKAXwJbZcaDAuqxNHdd0JU7d7o_YRzan8_NEy1FeI.jpg?auto=webp&s=886337e250c6417fd8941516f7d027aafc2459fc");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
